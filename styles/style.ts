@@ -72,6 +72,9 @@ const styles = StyleSheet.create({
     fontSize: 14,
     marginTop: 4,
   },
+  footer: {
+    padding: 60,
+  },
 });
 
 export default styles;
