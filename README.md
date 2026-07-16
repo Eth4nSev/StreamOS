@@ -20,7 +20,7 @@
 
 8. Wait for the Expo development server to start.
 
-## On Your Phone
+### On Your Phone
 
 1. Install **Expo Go** from the App Store or Google Play.
 2. Make sure your phone and computer are connected to the **same Wi-Fi network**.
@@ -32,14 +32,14 @@
 
 # Closing StreamOS
 
-## Option A (Recommended)
+### Option A (Recommended)
 
 1. On your phone, press and hold the screen with **three fingers**.
 2. Tap **Home** to exit the app.
 3. On your computer, return to the terminal.
 4. Press **Ctrl + C** to stop the Expo development server.
 
-## Option B
+### Option B
 
 1. Close the **Expo Go** app.
 2. Close **Visual Studio Code**.
