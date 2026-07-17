@@ -43,6 +43,7 @@ export const songs: Song[] = [
     artist: "Excision, Wooli & Ganja White Night",
     artwork: require("../assets/songs/rapid_fire.jpg"),
     audio: require("../assets/audio/rapid_fire.m4a"),
+    explicit: true,
   },
   {
     id: 7,
@@ -50,6 +51,7 @@ export const songs: Song[] = [
     artist: "Excision & Dion Timmer",
     artwork: require("../assets/songs/daba.jpg"),
     audio: require("../assets/audio/daba.m4a"),
+    explicit: true,
   },
   {
     id: 8,
@@ -78,6 +80,7 @@ export const songs: Song[] = [
     artist: "NEFFIX & Tokyo Machine",
     artwork: require("../assets/songs/desperate.jpg"),
     audio: require("../assets/audio/desperate.m4a"),
+    explicit: true,
   },
   {
     id: 12,
@@ -85,6 +88,7 @@ export const songs: Song[] = [
     artist: "Tokyo Machine & Guy Arthur",
     artwork: require("../assets/songs/stitches.jpg"),
     audio: require("../assets/audio/stitches.m4a"),
+    explicit: true,
   },
   {
     id: 13,
@@ -127,6 +131,7 @@ export const songs: Song[] = [
     artist: "Tokyo Machine",
     artwork: require("../assets/songs/hot_shot.jpg"),
     audio: require("../assets/audio/hot_shot.m4a"),
+    explicit: true,
   },
   {
     id: 19,
