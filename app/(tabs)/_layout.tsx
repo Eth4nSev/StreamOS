@@ -1,6 +1,6 @@
 import { Icon, Label, NativeTabs } from "expo-router/unstable-native-tabs";
 
-export default function RootLayout() {
+export default function TabLayout() {
   return (
     <NativeTabs>
       <NativeTabs.Trigger name="index">
@@ -14,6 +14,9 @@ export default function RootLayout() {
       <NativeTabs.Trigger name="settings">
         <Icon sf="gear" />
         <Label>Settings</Label>
+      </NativeTabs.Trigger>
+      <NativeTabs.Trigger name="search" role="search">
+        <Icon sf="magnifyingglass" />
       </NativeTabs.Trigger>
     </NativeTabs>
   );
