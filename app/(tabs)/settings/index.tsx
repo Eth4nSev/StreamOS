@@ -6,7 +6,7 @@ import { Pressable, ScrollView, Text, View } from "react-native";
 export default function SettingsScreen() {
   return (
     <ScrollView style={styles.container}>
-      <Link href="/(tabs)/settings/appearence" asChild>
+      <Link href="/(tabs)/settings/appearance" asChild>
         <Pressable style={styles.settingsCard}>
           <View style={styles.settingsLink}>
             <Text style={styles.settingsText}>Appearance</Text>

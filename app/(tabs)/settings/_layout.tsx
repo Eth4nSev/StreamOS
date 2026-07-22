@@ -12,9 +12,9 @@ export default function SearchLayout() {
         }}
       />
       <Stack.Screen
-        name="appearence"
+        name="appearance"
         options={{
-          title: "Appearence",
+          title: "Appearance",
           headerTransparent: true,
         }}
       />

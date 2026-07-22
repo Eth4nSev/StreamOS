@@ -4,7 +4,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { Stack } from "expo-router";
 import { Pressable, ScrollView, Text, View } from "react-native";
 
-export default function appearenceScreen() {
+export default function appearanceScreen() {
   return (
     <>
       <Stack.Screen options={{ headerBackButtonDisplayMode: "minimal" }} />
