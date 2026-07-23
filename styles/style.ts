@@ -84,7 +84,6 @@ const styles = StyleSheet.create({
   settingsContainer: {
     backgroundColor: "#222",
     borderRadius: 20,
-    margin: 16,
   },
   settingsItem: {
     padding: 16,
