@@ -81,13 +81,12 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#222",
   },
-  settingsCard: {
+  settingsContainer: {
     backgroundColor: "#222",
     borderRadius: 20,
-    justifyContent: "space-between",
     margin: 16,
   },
-  settingsLink: {
+  settingsItem: {
     padding: 16,
     flexDirection: "row",
     justifyContent: "space-between",
