@@ -6,8 +6,8 @@ import { ScrollView } from "react-native";
 export default function SettingsScreen() {
   return (
     <ScrollView style={styles.container}>
-      <SettingsContainer>
-        <SettingsLink title="Appearance" href="/(tabs)/settings/appearance" />
+      <SettingsContainer title="General">
+        <SettingsLink title="About" href="/(tabs)/settings/about" />
       </SettingsContainer>
     </ScrollView>
   );

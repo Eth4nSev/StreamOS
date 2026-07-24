@@ -1,11 +1,30 @@
 import { StyleSheet } from "react-native";
 
+export const Colors = {
+  light: {
+    background: "#f2f2f6",
+    card: "#fff",
+    text: "#000",
+    separator: "#aaa",
+  },
+  dark: {
+    background: "#000",
+    card: "#222",
+    text: "#fff",
+    separator: "#555",
+  },
+};
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: Colors.dark.background,
   },
-
+  textContainer: {
+    flex: 1,
+    backgroundColor: Colors.dark.background,
+    padding: 16,
+  },
   content: {
     paddingHorizontal: 20,
     paddingTop: 20,
@@ -13,21 +32,21 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    color: "#fff",
+    color: Colors.dark.text,
     fontSize: 34,
     fontWeight: "700",
     marginBottom: 20,
   },
 
   sectionTitle: {
-    color: "#fff",
+    color: Colors.dark.text,
     fontSize: 22,
     fontWeight: "600",
     marginBottom: 16,
   },
 
   text: {
-    color: "#fff",
+    color: Colors.dark.text,
     fontSize: 16,
   },
 
@@ -46,7 +65,7 @@ const styles = StyleSheet.create({
     padding: 12,
     marginBottom: 12,
     borderRadius: 16,
-    backgroundColor: "#111",
+    backgroundColor: Colors.dark.card,
   },
 
   albumArtwork: {
@@ -61,7 +80,7 @@ const styles = StyleSheet.create({
   },
 
   songTitle: {
-    color: "#fff",
+    color: Colors.dark.text,
     fontSize: 18,
     fontWeight: "600",
   },
@@ -79,10 +98,10 @@ const styles = StyleSheet.create({
     margin: 10,
     justifyContent: "center",
     borderBottomWidth: 1,
-    borderBottomColor: "#222",
+    borderBottomColor: Colors.dark.card,
   },
   settingsContainer: {
-    backgroundColor: "#222",
+    backgroundColor: Colors.dark.card,
     borderRadius: 20,
   },
   settingsItem: {
@@ -91,8 +110,12 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
   },
+  settingsItemPressed: {
+    opacity: 0.7,
+    backgroundColor: "#333",
+  },
   settingsText: {
-    color: "#fff",
+    color: Colors.dark.text,
     fontSize: 17,
   },
   settingsRow: {
@@ -102,7 +125,7 @@ const styles = StyleSheet.create({
   },
   separator: {
     height: StyleSheet.hairlineWidth,
-    backgroundColor: "#555",
+    backgroundColor: Colors.dark.separator,
     marginHorizontal: 16,
   },
   selectedInsideText: {
@@ -116,6 +139,21 @@ const styles = StyleSheet.create({
   },
   settingsCardPressed: {
     opacity: 0.65,
+  },
+  heading: {
+    color: Colors.dark.text,
+    fontSize: 24,
+    fontWeight: "bold",
+  },
+  subheading: {
+    color: Colors.dark.text,
+    fontSize: 20,
+    fontWeight: "bold",
+    marginTop: 16,
+  },
+  paragraph: {
+    color: "#999",
+    fontSize: 17,
   },
 });
 
